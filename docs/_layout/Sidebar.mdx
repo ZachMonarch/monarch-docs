@@ -1,0 +1,21 @@
+export const Sidebar = () => (
+  <aside style={{
+    backgroundColor: '#FDFBF7', color: '#3A4A3B',
+    minHeight: '100vh', width: '260px',
+    borderRight: '1px solid #C49B66',
+    padding: '2rem 1rem',
+    position: 'fixed', left: 0, top: 0, overflowY: 'auto'
+  }}>
+    <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+      <img src="/assets/monarch-logo.png" alt="Monarch Logo" width="100" />
+    </div>
+    <ul style={{ listStyle: 'none', padding: 0 }}>
+      <li><a href="/user-guides" style={{ color: '#3A4A3B', textDecoration: 'none' }}>User Guides</a></li>
+      <li><a href="/admin-guides" style={{ color: '#3A4A3B', textDecoration: 'none' }}>Admin</a></li>
+      <li><a href="/legal-library" style={{ color: '#3A4A3B', textDecoration: 'none' }}>Legal</a></li>
+      <li><a href="/finance-ops" style={{ color: '#3A4A3B', textDecoration: 'none' }}>Finance</a></li>
+      <li><a href="/training-center" style={{ color: '#3A4A3B', textDecoration: 'none' }}>Training</a></li>
+      <li><a href="/property-handbooks/the-broadwin" style={{ color: '#3A4A3B', textDecoration: 'none' }}>The Broadwin</a></li>
+    </ul>
+  </aside>
+)

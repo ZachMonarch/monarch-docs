@@ -1,0 +1,26 @@
+:root {
+  --monarch-primary: #C57A33;   /* Burnt Gold */
+  --monarch-deepgreen: #3A4A3B; /* Deep Green */
+  --monarch-sand: #F5EBD1;      /* Sand */
+  --monarch-bg: #FDFBF7;        /* Paper White */
+  --monarch-accent: #C49B66;    /* Warm Accent */
+  --monarch-shadow: #705E43;    /* Mountain Shadow */
+}
+html, body { background: var(--monarch-bg); color: var(--monarch-deepgreen); }
+h1,h2,h3 { color: var(--monarch-primary); font-family: "Poppins", system-ui, sans-serif; }
+a { color: var(--monarch-primary); text-decoration: none; }
+a:hover { color: var(--monarch-accent); text-decoration: underline; }
+.callout {
+  background: rgba(197, 122, 51, 0.08);
+  border-left: 4px solid var(--monarch-primary);
+  padding: 1rem; border-radius: 10px; margin: 1rem 0;
+}
+.card {
+  background: var(--monarch-bg);
+  border: 1px solid var(--monarch-accent);
+  border-radius: 12px; padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem;
+}

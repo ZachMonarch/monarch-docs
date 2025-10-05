@@ -1,0 +1,22 @@
+site:
+  title: "Monarch Documentation Portal"
+  description: "Centralized property, vendor, and project management documentation hub."
+  customDomain: "docs.monarchpropertymmgt.com"
+theme:
+  mode: "light"
+  customCss: "/styles/monarch.css"
+  primaryColor: "#C57A33"
+  secondaryColor: "#3A4A3B"
+  accentColor: "#C49B66"
+  logo: "/assets/monarch-logo.png"
+  favicon: "/assets/monarch-logo.png"
+auth:
+  protected:
+    - /admin-guides
+    - /finance-ops
+    - /legal-library
+  method: password
+  passwordEnv: MONARCH_DOCS_PASS
+build:
+  output: "dist"
+  include: ["docs/**/*"]

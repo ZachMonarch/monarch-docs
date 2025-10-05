@@ -1,0 +1,94 @@
+{
+  "name": "Monarch Property Management Documentation",
+  "description": "Unified documentation hub for property management, vendor onboarding, legal compliance, and project administration at Monarch Property Management.",
+  "logo": "/assets/monarch-logo.png",
+  "favicon": "/assets/monarch-logo.png",
+  "theme": {
+    "mode": "light",
+    "primaryColor": "#C57A33",
+    "secondaryColor": "#3A4A3B",
+    "accentColor": "#C49B66",
+    "font": {
+      "heading": "Poppins",
+      "body": "Inter"
+    }
+  },
+  "navigation": [
+    {
+      "section": "Getting Started",
+      "pages": [
+        "index",
+        "about-monarch"
+      ]
+    },
+    {
+      "section": "Vendor Management",
+      "pages": [
+        "user-guides/vendor-registration"
+      ]
+    },
+    {
+      "section": "Admin Guides",
+      "pages": [
+        "admin-guides/onboarding-workflows"
+      ]
+    },
+    {
+      "section": "Legal & Compliance",
+      "pages": [
+        "legal-library/terms-and-conditions"
+      ]
+    },
+    {
+      "section": "Finance Operations",
+      "pages": [
+        "finance-ops/payment-structure"
+      ]
+    },
+    {
+      "section": "Training & Safety",
+      "pages": [
+        "training-center/osha-guides"
+      ]
+    },
+    {
+      "section": "Projects & Properties",
+      "pages": [
+        "property-handbooks/the-broadwin/overview"
+      ]
+    },
+    {
+      "section": "Tech & API Docs",
+      "pages": [
+        "tech-docs/overview"
+      ]
+    },
+    {
+      "section": "Policies & Governance",
+      "pages": [
+        "policies/code-of-conduct"
+      ]
+    },
+    {
+      "section": "Releases & Updates",
+      "pages": [
+        "changelogs/v1.0"
+      ]
+    },
+    {
+      "section": "FAQ & Resources",
+      "pages": [
+        "faq/vendors",
+        "resources/templates-and-forms"
+      ]
+    }
+  ],
+  "ai": {
+    "search": true,
+    "assistant": true
+  },
+  "versions": [
+    "v1.0",
+    "dev"
+  ]
+}

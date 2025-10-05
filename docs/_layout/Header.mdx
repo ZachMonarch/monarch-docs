@@ -1,0 +1,24 @@
+export const Header = () => (
+  <header style={{
+    backgroundColor: '#3A4A3B',
+    borderBottom: '2px solid #C57A33',
+    padding: '1rem 2rem',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    position: 'sticky',
+    top: 0, zIndex: 1000
+  }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+      <img src="/assets/monarch-logo.png" alt="Monarch Logo" width="55" />
+      <h2 style={{ color: '#F5EBD1', margin: 0, fontWeight: 600 }}>
+        Monarch Property Management
+      </h2>
+    </div>
+    <nav>
+      <a href="/" style={{ color: '#F5EBD1', marginRight: '1rem', textDecoration: 'none' }}>Home</a>
+      <a href="/user-guides/vendor-registration" style={{ color: '#F5EBD1', marginRight: '1rem', textDecoration: 'none' }}>Vendor Portal</a>
+      <a href="/admin-guides/onboarding-workflows" style={{ color: '#C49B66', textDecoration: 'none' }}>Admin</a>
+    </nav>
+  </header>
+)
