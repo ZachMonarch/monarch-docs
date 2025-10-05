@@ -3,14 +3,7 @@
   "description": "Unified documentation hub for property management, vendor onboarding, legal compliance, and project administration at Monarch Property Management.",
   "logo": "/assets/monarch-logo.png",
   "favicon": "/assets/monarch-logo.png",
-  "theme": {
-    "mode": "light",
-    "primaryColor": "#C57A33",
-    "secondaryColor": "#3A4A3B",
-    "accentColor": "#C49B66",
-    "font": {
-      "heading": "Poppins",
-      "body": "Inter"
+  "theme": "almond",
     }
   },
   "navigation": [
