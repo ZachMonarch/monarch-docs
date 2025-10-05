@@ -1,8 +1,7 @@
 site:
   title: "Monarch Documentation Portal"
   description: "Centralized property, vendor, and project management documentation hub."
-  basePath: "/docs"        # 👈 tell Mintlify that your site lives under /docs
-  # customDomain: "docs.monarchpropertymmgt.com"  # keep commented until root works
+  # customDomain: "docs.monarchpropertymmgt.com"
 
 theme:
   mode: "light"
@@ -10,15 +9,6 @@ theme:
   primaryColor: "#C57A33"
   logo: "/assets/monarch-logo.png"
   favicon: "/assets/monarch-logo.png"
-
-# Remove auth temporarily to avoid any redirect loops while testing
-# auth:
-#   protected:
-#     - /admin-guides
-#     - /finance-ops
-#     - /legal-library
-#   method: password
-#   passwordEnv: MONARCH_DOCS_PASS
 
 build:
   output: "dist"
