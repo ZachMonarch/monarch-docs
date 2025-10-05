@@ -1,7 +1,8 @@
 site:
   title: "Monarch Documentation Portal"
   description: "Centralized property, vendor, and project management documentation hub."
-  # customDomain: "docs.monarchpropertymmgt.com"  # Disable until DNS is live
+  # customDomain disabled for now
+  # customDomain: "docs.monarchpropertymmgt.com"
 
 theme:
   mode: "light"
