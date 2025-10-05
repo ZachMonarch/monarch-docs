@@ -4,52 +4,24 @@
   "logo": "/assets/monarch-logo.png",
   "favicon": "/assets/monarch-logo.png",
   "theme": "almond",
-  "navigation": [
-    {
-      "section": "Getting Started",
-      "pages": ["index", "about-monarch"]
-    },
-    {
-      "section": "Vendor Management",
-      "pages": ["user-guides/vendor-registration"]
-    },
-    {
-      "section": "Admin Guides",
-      "pages": ["admin-guides/onboarding-workflows"]
-    },
-    {
-      "section": "Legal & Compliance",
-      "pages": ["legal-library/terms-and-conditions"]
-    },
-    {
-      "section": "Finance Operations",
-      "pages": ["finance-ops/payment-structure"]
-    },
-    {
-      "section": "Training & Safety",
-      "pages": ["training-center/osha-guides"]
-    },
-    {
-      "section": "Projects & Properties",
-      "pages": ["property-handbooks/the-broadwin/overview"]
-    },
-    {
-      "section": "Tech & API Docs",
-      "pages": ["tech-docs/overview"]
-    },
-    {
-      "section": "Policies & Governance",
-      "pages": ["policies/code-of-conduct"]
-    },
-    {
-      "section": "Releases & Updates",
-      "pages": ["changelogs/v1.0"]
-    },
-    {
-      "section": "FAQ & Resources",
-      "pages": ["faq/vendors", "resources/templates-and-forms"]
-    }
-  ],
+  "colors": {
+    "primary": "#C57A33",
+    "secondary": "#3A4A3B",
+    "accent": "#C49B66"
+  },
+  "navigation": {
+    "Getting Started": ["index", "about-monarch"],
+    "Vendor Management": ["user-guides/vendor-registration"],
+    "Admin Guides": ["admin-guides/onboarding-workflows"],
+    "Legal & Compliance": ["legal-library/terms-and-conditions"],
+    "Finance Operations": ["finance-ops/payment-structure"],
+    "Training & Safety": ["training-center/osha-guides"],
+    "Projects & Properties": ["property-handbooks/the-broadwin/overview"],
+    "Tech & API Docs": ["tech-docs/overview"],
+    "Policies & Governance": ["policies/code-of-conduct"],
+    "Releases & Updates": ["changelogs/v1.0"],
+    "FAQ & Resources": ["faq/vendors", "resources/templates-and-forms"]
+  },
   "ai": {
     "search": true,
     "assistant": true
