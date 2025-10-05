@@ -5,22 +5,24 @@
   "favicon": "/assets/monarch-logo.png",
   "theme": "almond",
   "colors": {
-    "primary": "#C57A33",
-    "secondary": "#3A4A3B",
-    "accent": "#C49B66"
+    "primary": "#C57A33"
   },
   "navigation": {
-    "Getting Started": ["index", "about-monarch"],
-    "Vendor Management": ["user-guides/vendor-registration"],
-    "Admin Guides": ["admin-guides/onboarding-workflows"],
-    "Legal & Compliance": ["legal-library/terms-and-conditions"],
-    "Finance Operations": ["finance-ops/payment-structure"],
-    "Training & Safety": ["training-center/osha-guides"],
-    "Projects & Properties": ["property-handbooks/the-broadwin/overview"],
-    "Tech & API Docs": ["tech-docs/overview"],
-    "Policies & Governance": ["policies/code-of-conduct"],
-    "Releases & Updates": ["changelogs/v1.0"],
-    "FAQ & Resources": ["faq/vendors", "resources/templates-and-forms"]
+    "pages": [
+      "index",
+      "about-monarch",
+      "user-guides/vendor-registration",
+      "admin-guides/onboarding-workflows",
+      "legal-library/terms-and-conditions",
+      "finance-ops/payment-structure",
+      "training-center/osha-guides",
+      "property-handbooks/the-broadwin/overview",
+      "tech-docs/overview",
+      "policies/code-of-conduct",
+      "changelogs/v1.0",
+      "faq/vendors",
+      "resources/templates-and-forms"
+    ]
   },
   "ai": {
     "search": true,
