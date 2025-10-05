@@ -1,7 +1,8 @@
 site:
   title: "Monarch Documentation Portal"
   description: "Centralized property, vendor, and project management documentation hub."
-  customDomain: "docs.monarchpropertymmgt.com"
+  # customDomain: "docs.monarchpropertymmgt.com"  # Disable until DNS is live
+
 theme:
   mode: "light"
   customCss: "/styles/monarch.css"
@@ -10,6 +11,7 @@ theme:
   accentColor: "#C49B66"
   logo: "/assets/monarch-logo.png"
   favicon: "/assets/monarch-logo.png"
+
 auth:
   protected:
     - /admin-guides
@@ -17,6 +19,8 @@ auth:
     - /legal-library
   method: password
   passwordEnv: MONARCH_DOCS_PASS
+
 build:
   output: "dist"
-  include: ["docs/**/*"]
+  include:
+    - "docs/**/*"
