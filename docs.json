@@ -4,84 +4,55 @@
   "logo": "/assets/monarch-logo.png",
   "favicon": "/assets/monarch-logo.png",
   "theme": "almond",
-    }
-  },
   "navigation": [
     {
       "section": "Getting Started",
-      "pages": [
-        "index",
-        "about-monarch"
-      ]
+      "pages": ["index", "about-monarch"]
     },
     {
       "section": "Vendor Management",
-      "pages": [
-        "user-guides/vendor-registration"
-      ]
+      "pages": ["user-guides/vendor-registration"]
     },
     {
       "section": "Admin Guides",
-      "pages": [
-        "admin-guides/onboarding-workflows"
-      ]
+      "pages": ["admin-guides/onboarding-workflows"]
     },
     {
       "section": "Legal & Compliance",
-      "pages": [
-        "legal-library/terms-and-conditions"
-      ]
+      "pages": ["legal-library/terms-and-conditions"]
     },
     {
       "section": "Finance Operations",
-      "pages": [
-        "finance-ops/payment-structure"
-      ]
+      "pages": ["finance-ops/payment-structure"]
     },
     {
       "section": "Training & Safety",
-      "pages": [
-        "training-center/osha-guides"
-      ]
+      "pages": ["training-center/osha-guides"]
     },
     {
       "section": "Projects & Properties",
-      "pages": [
-        "property-handbooks/the-broadwin/overview"
-      ]
+      "pages": ["property-handbooks/the-broadwin/overview"]
     },
     {
       "section": "Tech & API Docs",
-      "pages": [
-        "tech-docs/overview"
-      ]
+      "pages": ["tech-docs/overview"]
     },
     {
       "section": "Policies & Governance",
-      "pages": [
-        "policies/code-of-conduct"
-      ]
+      "pages": ["policies/code-of-conduct"]
     },
     {
       "section": "Releases & Updates",
-      "pages": [
-        "changelogs/v1.0"
-      ]
+      "pages": ["changelogs/v1.0"]
     },
     {
       "section": "FAQ & Resources",
-      "pages": [
-        "faq/vendors",
-        "resources/templates-and-forms"
-      ]
+      "pages": ["faq/vendors", "resources/templates-and-forms"]
     }
   ],
   "ai": {
     "search": true,
     "assistant": true
   },
-  "versions": [
-    "v1.0",
-    "dev"
-  ]
+  "versions": ["v1.0", "dev"]
 }
